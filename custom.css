@@ -18,7 +18,7 @@ html, body {
     margin-bottom: -1rem;
 }
 h5 {
-    padding: 1rem;
+    padding: 1rem;  
     color: black;
 }
 h5:hover {
@@ -55,6 +55,11 @@ code {
 section article {
     margin: 15px;
 }
+img {
+        padding: 0.5rem;
+        margin: 1.5rem;
+        border: 2px solid lightgrey;
+    }
 
 
 /* Media Queries */
@@ -89,12 +94,14 @@ section article {
     #main-style {
         border-top: 4px solid lightgrey;
     }
+    
 }
 /*Medium Devices and larger*/
 @media (min-width: 769px) {
     .back-to-top {
         width: 10vw;
-}
+    }
+    
 }
 
 /* Large devices (desktops, 992px and up) */
